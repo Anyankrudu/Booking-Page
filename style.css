@@ -8,4 +8,75 @@
 
 body {
   font-family: Roboto, sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: var(--primary-2);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: clamp(35rem, 85vw, 75.5rem);
+  align-items: center;
+}
+
+.container > h4 {
+  margin-bottom: 2.5rem;
+  font-size: 3rem;
+  color: var(--white);
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  width: clamp(35rem, 85vw, 75.5rem);
+  height: 16.5rem;
+  background: var(--white);
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.operations_box {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.operation {
+  display: flex;
+  flex: 1 1 15rem;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  background: none;
+}
+
+.btn_search {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--white);
+  text-decoration: underline;
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.icon_search {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.operation_type {
 }
