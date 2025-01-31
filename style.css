@@ -1,0 +1,11 @@
+:root {
+  --primary-1: #4f86f7;
+  --primary-2: #0000cd;
+  --primary-darker: #00008b;
+  --white: #ffffff;
+  --text: #483d8b;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
